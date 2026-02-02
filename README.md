@@ -108,3 +108,5 @@ npx playwright test --grep @login
 
 > Test automation should reduce risk and improve confidence in releases.
 > This portfolio reflects how I design automation to achieve that goal.
+> 
+![Playwright Tests](https://github.com/kishock/Playwright_POM_Login/actions/workflows/playwright.yml/badge.svg)
