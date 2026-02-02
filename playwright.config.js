@@ -40,7 +40,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     browserName: 'chromium',
-    headless:false,
+    headless: process.env.CI ? true : false,
     trace: 'retain-on-failure',
     launchOptions: { slowMo: 300 },
     screenshot: 'only-on-failure',
